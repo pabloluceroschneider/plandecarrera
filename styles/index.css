@@ -1,10 +1,15 @@
 @import './materia.css';
 
+body{
+    background-color: #ecf0f5;
+}
 
 .title{
-    border: 1px solid #000;
+    border: 1px solid rgb(228, 228, 228);
     height: 15vh;
     margin: 0.2em;
+    background-color: #FFF;
+
 }
 
 .title h1, button{
@@ -20,7 +25,6 @@
 .nivel{
     position: relative;
     display: inline-block;
-    border: 1px solid #FFF;
     margin: 1em 0px 0px 0px;
     width: 98%;
     height: 70vh;

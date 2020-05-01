@@ -1,6 +1,8 @@
 .materia{
+    background-color: #FFF;
     position: relative;
-    border: 1px solid #000;
+    border: 1px solid rgb(228, 228, 228);
+    border-radius: 3%;
     margin-top: 5px;
     left: 10%;
     width: 80%;
@@ -8,15 +10,19 @@
     text-align: center;
 }
 
+/* .materia:hover{
+    background-color: rgb(169, 189, 197);
+} */
+
 .materia[title=""]{
     display: none;
 }
 
 .painted{
-    background-color: grey;
+    background-color: #F7DC6F;
 }
 
 
 .self{
-    background-color: rgb(170, 170, 170);
+    background-color: #F7DC6F;
 }
