@@ -30,6 +30,16 @@ body{
     height: 70vh;
 }
 
+#footer{
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+}
+#footer a{
+    text-decoration: none;
+    color: rgb(35, 65, 145);
+}
+
 @media (max-width:700px) {
     /* html{
         width: 100%;
@@ -59,5 +69,10 @@ body{
     .materia{
         width: 60%;
         height: 30px;
+    }
+
+    #footer{
+        bottom: -80px;
+        right: 50px;
     }
 }
