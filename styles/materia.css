@@ -1,0 +1,22 @@
+.materia{
+    position: relative;
+    border: 1px solid #000;
+    margin-top: 5px;
+    left: 10%;
+    width: 80%;
+    height: 40px;
+    text-align: center;
+}
+
+.materia[title=""]{
+    display: none;
+}
+
+.painted{
+    background-color: grey;
+}
+
+
+.self{
+    background-color: rgb(170, 170, 170);
+}

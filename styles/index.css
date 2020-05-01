@@ -1,0 +1,27 @@
+@import './materia.css';
+
+
+.title{
+    border: 1px solid #000;
+    height: 15vh;
+    margin: 0.2em;
+}
+
+.title h1, button{
+    text-align: center;
+}
+
+.cont{
+    position: relative;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+}
+
+.nivel{
+    position: relative;
+    display: inline-block;
+    border: 1px solid #FFF;
+    margin: 1em 0px 0px 0px;
+    width: 98%;
+    height: 70vh;
+}
