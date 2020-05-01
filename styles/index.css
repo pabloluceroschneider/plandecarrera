@@ -48,7 +48,7 @@ body{
     }
 
     .cont{
-        margin: -25px 0px 0px -350px;
+        margin: -25px 0px 0px -550px;
         height: 50vh;
     }
 
@@ -57,7 +57,7 @@ body{
     }
 
     .materia{
-        width: 80%;
+        width: 60%;
         height: 30px;
     }
 }
