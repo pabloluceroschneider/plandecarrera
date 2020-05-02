@@ -9,6 +9,7 @@
     height: auto;
     min-height: 40px;
     text-align: center;
+    cursor: default;
 }
 
 /* .materia:hover{

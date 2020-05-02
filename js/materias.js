@@ -198,11 +198,10 @@ for (index in arrayMaterias){
 }
 
 const paintCorrelativas = div => {
+    div.classList.toggle("self");
     let self = materias.find( m => m.nombre === div.title)
     const { correlativas } = self;
-    div.classList.add("self");
     correlativas.map( m => {
-        document.getElementById(m).classList.add("painted");
+        document.getElementById(m).classList.toggle("painted");
     })
 }
-
