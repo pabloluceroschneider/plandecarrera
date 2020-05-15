@@ -9,8 +9,8 @@ for (let index = 0; index < 8; index++) {
 
 let c = document.querySelector(".cont");
 
-for (let index = 0; index < 4; index++) {
+for (let index = 1; index < 5; index++) {
     let x = l.cloneNode(l);
-    x.id = "Nivel "+(index+2)
+    x.id = "Nivel "+(index+1)
     c.appendChild(x)    
 }
